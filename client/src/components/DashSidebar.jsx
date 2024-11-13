@@ -38,7 +38,7 @@ export default function DashSidebar() {
         <Sidebar.Items>
           <Sidebar.ItemGroup className='flex flex-col gap-1'>
             {currentUser && currentUser.isAdmin && (
-              <Link to='/dasboard?tab=dash'>
+              <Link to='/dashboard?tab=dash'>
                 <Sidebar.Item
                   active={tab === 'dash' || !tab}
                   icon={HiChartPie}
